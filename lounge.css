@@ -1,17 +1,26 @@
 body {
-	font-family: sans-serif;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: small;
+	line-height: 1.6em;
+	background-color: #cee3e3;
+	
 }
 
 h1, h2 {    
-	color: gray;
+	color: #007e7e;
 }
 
-h1 { 
-	border-bottom: 1px solid black;
+h1 {
+	padding: 25px;
+	font-size: 180%;
+}
+
+h2 {
+	font-size: 130%
 }
 
 p {
-	color: maroon;
+	color: #000000;
 }
 
 p.greentea {
@@ -28,4 +37,22 @@ p.blueberry {
 
 em {
 	font-family: serif;
+}
+.image {
+	margin-left: 25px;
+	
+}
+
+#presentation {
+	line-height: 1.9em;
+	font-style: italic;
+	color: #444444;
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	border-color: #a7cece;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #a7cece;
+	padding: 25px;
+	margin: 30px;
+	margin-right: 450px;
 }
